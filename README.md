@@ -31,7 +31,7 @@ The version of Node inherited from your shell environment will usually suffice; 
 Some common schemas are included out of the box:
 
 * `docker-compose.yml`
-* GitHub Actions YAML schema
+* GitHub Actions workflow
 
 #### Explicit schemas
 
