@@ -1,7 +1,7 @@
 {
   "name": "pulsar-ide-yaml",
   "main": "./lib/main",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Rich language support for YAML files in Pulsar via yaml-language-server",
   "keywords": [
     "ide",
