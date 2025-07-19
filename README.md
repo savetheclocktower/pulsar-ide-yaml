@@ -10,8 +10,8 @@ None! `yaml-language-server` is bundled with this package.
 
 * Code completion (via `autocomplete-plus`) for YAML properties and values based on the document’s [schema](https://json-schema.org/). Schemas for some common types are included; others can be configured.
 * Validation (via `linter` and `linter-ui-default`).
-* Document symbol resolution (via `symbols-view`) for JSON properties in the document.
-* Hover (via `pulsar-hover`) for rich tooltip content based on descriptions in the document’s JSON schema.
+* Document symbol resolution (via `symbols-view`) for properties in the document.
+* Hover (via `pulsar-hover`) for rich tooltip content based on descriptions in the document’s schema.
 * Format-as-you-type support (via `pulsar-code-format`). (Whole-document formatting and selected-range formatting are not yet supported by the underlying language server.)
 * Outline support (via `pulsar-outline-view`) for a hierarchical representation of the YAML document.
 
