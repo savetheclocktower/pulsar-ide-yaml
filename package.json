@@ -1,7 +1,7 @@
 {
   "name": "pulsar-ide-yaml",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Rich language support for YAML files in Pulsar via yaml-language-server",
   "keywords": [
     "ide",
@@ -76,7 +76,11 @@
             },
             "proseWrap": {
               "type": "string",
-              "enum": ["Always", "Never", "Preserve"],
+              "enum": [
+                "Always",
+                "Never",
+                "Preserve"
+              ],
               "default": "Preserve",
               "title": "Wrap Prose",
               "description": "How to handle long lines of prose. “Always” means prose will be wrapped if it exceeds the line width; “Never” means prose will be unwrapped in all cases, even when line breaks are present; “Preserve” means the formatter will ignore this rule and keep whatever is present."
